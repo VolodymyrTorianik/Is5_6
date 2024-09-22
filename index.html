@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Домашне Завдання</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+ <header>
+    <img src="./logos.svg" alt="ITstep" class="header-img"><span class="header-text">ДОМАШНЕ ЗАВДАННЯ</span>
+ </header> 
+ <nav>
+    <ul>
+        <li><a href="#url-content">Приклади URL шляхів</a></li>
+        <li><a href="#images-style">Зображення</a></li>
+        <li><a href="#video-audio-style">Аудіо та Відео</a></li>
+    </ul>
+ </nav>
+ <main>
+    <section id="url-content">
+        <h1>Абсолютний i Відносний URL</h1>
+        <p>URL-адреси, що розміщуються на веб-сторінці, можуть мати 2 типи - абсолютний або відносний.</p>       
+        <h2>Абсолютний URL</h2>
+        <p><b>Абсолютна URL-адреса</b> вказує точне (повне) розташування веб-сторінки або файлу з кореня системи. Приклади абсолютного шляху URL:</p>
+        <div class="url-type">
+            https://mysite.com/images/zobrazhennya-1.jpg<br>
+            https://mysite.com/styles/style.css<br>
+            https://mysite.com/content/images/1.png<br>
+        </div>
+        <p>При створенні HTML-сторінки абсолютні URL використовуються у разі, якщо необхідно вказати посилання на інший сайт, або вивести будь-який медіа файл (зображення, відео, аудіо), розміщені на сторонніх сайтах.</p>
+        <h2>Відносний URL</h2>
+        <p>Відносна URL-адреса вказує лише коротку частину шляху до веб-сторінок або медіа-файлів, розташованих на одному хостингу або комп'ютері. Як правило, такі URL-адреси можуть мати один або кілька рівнів вкладеності в рамках одного проекту. При вказівці посилань на файли зі сторонніх сайтів використання відносних URL-адрес неможливе. Приклад відносних URL:</p>
+        <div class="url-type">
+            ./zobrazhennya-1.jpg<br>
+            ./images/zobrazhennya-1.jpg<br>
+            ../../styles/style.css<br>
+        </div>
+        <p>Далі я пропоную розглянути як за допомогою абсолютних та відносних URL ми можем розміщувати зображення на сторінці.</p>     
+    </section>
+    <section id="images-style">
+        <h2>Приклади зображеннь</h2>
+            <h3>Зображення з відносними URL</h3>
+            <img src="./images/img-1.jpg" alt="Перше зображення">
+            <img src="./images/img-2.jpg" alt="Друге зображення">
+            <img src="./images/img-3.jpg" alt="Трете зображення">
+            <h3>Зображення з абсолютними URL</h3>
+            <img src="https://static2.rosfoto.org/wp-content/uploads/2019/04/004-848x566.jpg" alt="Перше зображення">
+            <img src="https://kartin.papik.pro/uploads/posts/2023-07/thumbs/1688360466_kartin-papik-pro-p-kartinki-leto-krasivie-priroda-26.jpg" alt="Друге зображення">
+            <img src="https://kartinki.pics/uploads/posts/2022-02/thumbs/1644924352_1-kartinkin-net-p-kartinki-leto-priroda-1.jpg" alt="Трете зображення">                        
+    </section>
+    <section id="video-audio-style">
+        <h2>Аудіо та відео</h2>        
+        <p>Приклад виведення аудіо-контента на сторінці:</p>
+        <audio src="./audio.mp3" controls></audio>
+        <p>А ось так ми маємо змогу вивести відео на сторінці:</p>
+        <video src="./video.mp4" controls></video>
+    </section>    
+ </main>
+ <footer>
+    Завдання виконано Торяніком Володимиром спеціально для ITstep
+ </footer>  
+</body>
+</html>

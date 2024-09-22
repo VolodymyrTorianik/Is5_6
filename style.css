@@ -1,0 +1,91 @@
+header {
+    background-color: blue;
+    text-align: center;
+}
+
+.header-img {
+    width: 50px;
+    padding-top: 10px;
+}
+
+.header-text {
+    font-size: 55px;
+    font-weight: 900;
+    color: #fff;
+    padding: 0px 20px;
+}
+
+nav {
+    text-align: center;
+    background-color:blanchedalmond;
+    border: 1px solid rgb(85, 115, 160);  
+}
+
+
+ul {
+    margin: 0;
+    padding: 20px;
+}
+
+ul li {
+    display: inline;
+    text-decoration: none;
+    padding-right: 40px;
+    text-align: center;
+}
+
+li a {
+    font-size: 40px;
+    padding: 0px 30px;
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+.url-type {
+    background-color: rgb(205, 207, 211);
+    width: 400px;
+    padding: 20px;
+    border: 1px solid rgb(143, 157, 179); 
+    border-radius: 10px;
+}
+
+
+#url-content {
+    background-color: aliceblue;
+    border: 1px solid rgb(143, 157, 179);
+    padding: 10px;
+
+}
+
+#images-style {
+    background-color: azure;
+    border: 1px solid rgb(143, 157, 179);
+    padding: 10px;    
+}
+
+#images-style img {
+    border: 1px solid rgb(143, 157, 179); 
+    border-radius: 10px;
+    width: 350px;    
+}
+
+#video-audio-style {
+    background-color: aliceblue;
+    border: 1px solid rgb(143, 157, 179);
+    padding: 10px;    
+}
+
+video {
+    width: 500px;
+}
+
+footer {
+    background-color: blue;
+    color:#fff;
+    text-align: center;
+    padding: 20px 0px;    
+}
